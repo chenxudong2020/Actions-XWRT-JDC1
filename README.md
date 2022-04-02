@@ -1,5 +1,13 @@
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+固件使用虐心插件库，ptpt52最新发布版本，选择fakemesh，hostapd full，wpad full，sqm qos，frp，pass**，cpulimit，linkaggeration，ttyd。带有argon 21.02主题
+密码：admin无线密码：88888888
+
+打开默认隐藏的软件包和启动项页面：
+cd /usr && ls
+sed -i 's/-hidden//g' /usr/share/luci/menu.d/*.json
+
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
