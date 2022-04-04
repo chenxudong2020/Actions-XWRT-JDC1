@@ -3,7 +3,7 @@
 刷前必看：请用AX6S-XWRT-factory.bin开始刷机步骤，从别的源码固件升级会软砖。
 发布的固件一律只允许使用sysupgrade，系统内升级不了代表自动打包过大，无法升级。
 
-固件使用虐心插件库，ptpt52最新发布版本，选择fakemesh，hostapd full，wpad full，sqm qos，frp，pass**，cpulimit，linkaggeration，ttyd。带有argon 21.02主题
+固件使用虐心插件库，ptpt52最新发布版本，选择fakemesh，hostapd openssl，wpad full，sqm qos，frp，pass**，cpulimit，linkaggeration，ttyd。带有argon 21.02主题
 密码：admin无线密码：88888888
 
 打开默认隐藏的软件包和启动项页面：
